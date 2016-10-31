@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B68300021D17FC6E00269AF7 /* CyanThirdMacAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68300011D17FC6E00269AF7 /* CyanThirdMacAppUITests.m */; };
+		B68300171D17FC8800269AF7 /* CyanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68300131D17FC8800269AF7 /* CyanViewController.m */; };
+		B68300181D17FC8800269AF7 /* CyanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68300141D17FC8800269AF7 /* CyanViewController.xib */; };
+		B683001C1D17FE7500269AF7 /* CyanNewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B683001A1D17FE7500269AF7 /* CyanNewWindowController.m */; };
+		B683001D1D17FE7500269AF7 /* CyanNewWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B683001B1D17FE7500269AF7 /* CyanNewWindowController.xib */; };
+		B683FFE41D17FC6E00269AF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B683FFE31D17FC6E00269AF7 /* AppDelegate.m */; };
+		B683FFE71D17FC6E00269AF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B683FFE61D17FC6E00269AF7 /* main.m */; };
+		B683FFE91D17FC6E00269AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B683FFE81D17FC6E00269AF7 /* Assets.xcassets */; };
+		B683FFEC1D17FC6E00269AF7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B683FFEA1D17FC6E00269AF7 /* MainMenu.xib */; };
+		B683FFF71D17FC6E00269AF7 /* CyanThirdMacAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B683FFF61D17FC6E00269AF7 /* CyanThirdMacAppTests.m */; };
+		B6E515CE1D1BEFFF00F8C190 /* CyanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E515CD1D1BEFFF00F8C190 /* CyanTool.m */; };
+		B6E515D11D1BF9E400F8C190 /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6E515CF1D1BF9E400F8C190 /* white.jpg */; };
+		B6E515D21D1BF9E400F8C190 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6E515D01D1BF9E400F8C190 /* black.jpg */; };
+		B6F645041D191AE200F8FE17 /* CyanPressPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F645031D191AE200F8FE17 /* CyanPressPanelView.m */; };
+		B6F645081D193A5400F8FE17 /* CyanCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F645071D193A5400F8FE17 /* CyanCustomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B683FFF31D17FC6E00269AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B683FFD71D17FC6E00269AF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B683FFDE1D17FC6E00269AF7;
+			remoteInfo = CyanThirdMacApp;
+		};
+		B683FFFE1D17FC6E00269AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B683FFD71D17FC6E00269AF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B683FFDE1D17FC6E00269AF7;
+			remoteInfo = CyanThirdMacApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B68300011D17FC6E00269AF7 /* CyanThirdMacAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyanThirdMacAppUITests.m; sourceTree = "<group>"; };
+		B68300031D17FC6E00269AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68300121D17FC8800269AF7 /* CyanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyanViewController.h; sourceTree = "<group>"; };
+		B68300131D17FC8800269AF7 /* CyanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyanViewController.m; sourceTree = "<group>"; };
+		B68300141D17FC8800269AF7 /* CyanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CyanViewController.xib; sourceTree = "<group>"; };
+		B68300191D17FE7500269AF7 /* CyanNewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyanNewWindowController.h; sourceTree = "<group>"; };
+		B683001A1D17FE7500269AF7 /* CyanNewWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyanNewWindowController.m; sourceTree = "<group>"; };
+		B683001B1D17FE7500269AF7 /* CyanNewWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CyanNewWindowController.xib; sourceTree = "<group>"; };
+		B683FFDF1D17FC6E00269AF7 /* CyanThirdMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyanThirdMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B683FFE21D17FC6E00269AF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B683FFE31D17FC6E00269AF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B683FFE61D17FC6E00269AF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B683FFE81D17FC6E00269AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B683FFEB1D17FC6E00269AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B683FFED1D17FC6E00269AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B683FFF21D17FC6E00269AF7 /* CyanThirdMacAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyanThirdMacAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B683FFF61D17FC6E00269AF7 /* CyanThirdMacAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyanThirdMacAppTests.m; sourceTree = "<group>"; };
+		B683FFF81D17FC6E00269AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B683FFFD1D17FC6E00269AF7 /* CyanThirdMacAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyanThirdMacAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E515CC1D1BEFFF00F8C190 /* CyanTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyanTool.h; sourceTree = "<group>"; };
+		B6E515CD1D1BEFFF00F8C190 /* CyanTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyanTool.m; sourceTree = "<group>"; };
+		B6E515CF1D1BF9E400F8C190 /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white.jpg; sourceTree = "<group>"; };
+		B6E515D01D1BF9E400F8C190 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
+		B6F645021D191AE200F8FE17 /* CyanPressPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyanPressPanelView.h; sourceTree = "<group>"; };
+		B6F645031D191AE200F8FE17 /* CyanPressPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyanPressPanelView.m; sourceTree = "<group>"; };
+		B6F645051D19209000F8FE17 /* macPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macPrefix.pch; sourceTree = "<group>"; };
+		B6F645061D193A5400F8FE17 /* CyanCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyanCustomView.h; sourceTree = "<group>"; };
+		B6F645071D193A5400F8FE17 /* CyanCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyanCustomView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B683FFDC1D17FC6E00269AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B683FFEF1D17FC6E00269AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B683FFFA1D17FC6E00269AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B68300001D17FC6E00269AF7 /* CyanThirdMacAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B68300011D17FC6E00269AF7 /* CyanThirdMacAppUITests.m */,
+				B68300031D17FC6E00269AF7 /* Info.plist */,
+			);
+			path = CyanThirdMacAppUITests;
+			sourceTree = "<group>";
+		};
+		B683FFD61D17FC6E00269AF7 = {
+			isa = PBXGroup;
+			children = (
+				B683FFE11D17FC6E00269AF7 /* CyanThirdMacApp */,
+				B683FFF51D17FC6E00269AF7 /* CyanThirdMacAppTests */,
+				B68300001D17FC6E00269AF7 /* CyanThirdMacAppUITests */,
+				B683FFE01D17FC6E00269AF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B683FFE01D17FC6E00269AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B683FFDF1D17FC6E00269AF7 /* CyanThirdMacApp.app */,
+				B683FFF21D17FC6E00269AF7 /* CyanThirdMacAppTests.xctest */,
+				B683FFFD1D17FC6E00269AF7 /* CyanThirdMacAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B683FFE11D17FC6E00269AF7 /* CyanThirdMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				B683FFE21D17FC6E00269AF7 /* AppDelegate.h */,
+				B683FFE31D17FC6E00269AF7 /* AppDelegate.m */,
+				B68300191D17FE7500269AF7 /* CyanNewWindowController.h */,
+				B683001A1D17FE7500269AF7 /* CyanNewWindowController.m */,
+				B683001B1D17FE7500269AF7 /* CyanNewWindowController.xib */,
+				B68300121D17FC8800269AF7 /* CyanViewController.h */,
+				B68300131D17FC8800269AF7 /* CyanViewController.m */,
+				B68300141D17FC8800269AF7 /* CyanViewController.xib */,
+				B6F645021D191AE200F8FE17 /* CyanPressPanelView.h */,
+				B6F645031D191AE200F8FE17 /* CyanPressPanelView.m */,
+				B6F645061D193A5400F8FE17 /* CyanCustomView.h */,
+				B6F645071D193A5400F8FE17 /* CyanCustomView.m */,
+				B6E515CC1D1BEFFF00F8C190 /* CyanTool.h */,
+				B6E515CD1D1BEFFF00F8C190 /* CyanTool.m */,
+				B6E515CF1D1BF9E400F8C190 /* white.jpg */,
+				B6E515D01D1BF9E400F8C190 /* black.jpg */,
+				B6F645051D19209000F8FE17 /* macPrefix.pch */,
+				B683FFE81D17FC6E00269AF7 /* Assets.xcassets */,
+				B683FFEA1D17FC6E00269AF7 /* MainMenu.xib */,
+				B683FFED1D17FC6E00269AF7 /* Info.plist */,
+				B683FFE51D17FC6E00269AF7 /* Supporting Files */,
+			);
+			path = CyanThirdMacApp;
+			sourceTree = "<group>";
+		};
+		B683FFE51D17FC6E00269AF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B683FFE61D17FC6E00269AF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B683FFF51D17FC6E00269AF7 /* CyanThirdMacAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B683FFF61D17FC6E00269AF7 /* CyanThirdMacAppTests.m */,
+				B683FFF81D17FC6E00269AF7 /* Info.plist */,
+			);
+			path = CyanThirdMacAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B683FFDE1D17FC6E00269AF7 /* CyanThirdMacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68300061D17FC6E00269AF7 /* Build configuration list for PBXNativeTarget "CyanThirdMacApp" */;
+			buildPhases = (
+				B683FFDB1D17FC6E00269AF7 /* Sources */,
+				B683FFDC1D17FC6E00269AF7 /* Frameworks */,
+				B683FFDD1D17FC6E00269AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CyanThirdMacApp;
+			productName = CyanThirdMacApp;
+			productReference = B683FFDF1D17FC6E00269AF7 /* CyanThirdMacApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B683FFF11D17FC6E00269AF7 /* CyanThirdMacAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68300091D17FC6E00269AF7 /* Build configuration list for PBXNativeTarget "CyanThirdMacAppTests" */;
+			buildPhases = (
+				B683FFEE1D17FC6E00269AF7 /* Sources */,
+				B683FFEF1D17FC6E00269AF7 /* Frameworks */,
+				B683FFF01D17FC6E00269AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B683FFF41D17FC6E00269AF7 /* PBXTargetDependency */,
+			);
+			name = CyanThirdMacAppTests;
+			productName = CyanThirdMacAppTests;
+			productReference = B683FFF21D17FC6E00269AF7 /* CyanThirdMacAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B683FFFC1D17FC6E00269AF7 /* CyanThirdMacAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B683000C1D17FC6E00269AF7 /* Build configuration list for PBXNativeTarget "CyanThirdMacAppUITests" */;
+			buildPhases = (
+				B683FFF91D17FC6E00269AF7 /* Sources */,
+				B683FFFA1D17FC6E00269AF7 /* Frameworks */,
+				B683FFFB1D17FC6E00269AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B683FFFF1D17FC6E00269AF7 /* PBXTargetDependency */,
+			);
+			name = CyanThirdMacAppUITests;
+			productName = CyanThirdMacAppUITests;
+			productReference = B683FFFD1D17FC6E00269AF7 /* CyanThirdMacAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B683FFD71D17FC6E00269AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cyan;
+				TargetAttributes = {
+					B683FFDE1D17FC6E00269AF7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B683FFF11D17FC6E00269AF7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B683FFDE1D17FC6E00269AF7;
+					};
+					B683FFFC1D17FC6E00269AF7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B683FFDE1D17FC6E00269AF7;
+					};
+				};
+			};
+			buildConfigurationList = B683FFDA1D17FC6E00269AF7 /* Build configuration list for PBXProject "CyanThirdMacApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B683FFD61D17FC6E00269AF7;
+			productRefGroup = B683FFE01D17FC6E00269AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B683FFDE1D17FC6E00269AF7 /* CyanThirdMacApp */,
+				B683FFF11D17FC6E00269AF7 /* CyanThirdMacAppTests */,
+				B683FFFC1D17FC6E00269AF7 /* CyanThirdMacAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B683FFDD1D17FC6E00269AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68300181D17FC8800269AF7 /* CyanViewController.xib in Resources */,
+				B6E515D21D1BF9E400F8C190 /* black.jpg in Resources */,
+				B6E515D11D1BF9E400F8C190 /* white.jpg in Resources */,
+				B683001D1D17FE7500269AF7 /* CyanNewWindowController.xib in Resources */,
+				B683FFE91D17FC6E00269AF7 /* Assets.xcassets in Resources */,
+				B683FFEC1D17FC6E00269AF7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B683FFF01D17FC6E00269AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B683FFFB1D17FC6E00269AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B683FFDB1D17FC6E00269AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F645041D191AE200F8FE17 /* CyanPressPanelView.m in Sources */,
+				B683FFE71D17FC6E00269AF7 /* main.m in Sources */,
+				B6E515CE1D1BEFFF00F8C190 /* CyanTool.m in Sources */,
+				B683001C1D17FE7500269AF7 /* CyanNewWindowController.m in Sources */,
+				B68300171D17FC8800269AF7 /* CyanViewController.m in Sources */,
+				B6F645081D193A5400F8FE17 /* CyanCustomView.m in Sources */,
+				B683FFE41D17FC6E00269AF7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B683FFEE1D17FC6E00269AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B683FFF71D17FC6E00269AF7 /* CyanThirdMacAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B683FFF91D17FC6E00269AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68300021D17FC6E00269AF7 /* CyanThirdMacAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B683FFF41D17FC6E00269AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B683FFDE1D17FC6E00269AF7 /* CyanThirdMacApp */;
+			targetProxy = B683FFF31D17FC6E00269AF7 /* PBXContainerItemProxy */;
+		};
+		B683FFFF1D17FC6E00269AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B683FFDE1D17FC6E00269AF7 /* CyanThirdMacApp */;
+			targetProxy = B683FFFE1D17FC6E00269AF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B683FFEA1D17FC6E00269AF7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B683FFEB1D17FC6E00269AF7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B68300041D17FC6E00269AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B68300051D17FC6E00269AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B68300071D17FC6E00269AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = /Users/cyan/Desktop/CyanThirdMacApp/CyanThirdMacApp/macPrefix.pch;
+				INFOPLIST_FILE = CyanThirdMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CyanThirdMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B68300081D17FC6E00269AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = /Users/cyan/Desktop/CyanThirdMacApp/CyanThirdMacApp/macPrefix.pch;
+				INFOPLIST_FILE = CyanThirdMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CyanThirdMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B683000A1D17FC6E00269AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CyanThirdMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CyanThirdMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyanThirdMacApp.app/Contents/MacOS/CyanThirdMacApp";
+			};
+			name = Debug;
+		};
+		B683000B1D17FC6E00269AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CyanThirdMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CyanThirdMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyanThirdMacApp.app/Contents/MacOS/CyanThirdMacApp";
+			};
+			name = Release;
+		};
+		B683000D1D17FC6E00269AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CyanThirdMacAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CyanThirdMacAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CyanThirdMacApp;
+			};
+			name = Debug;
+		};
+		B683000E1D17FC6E00269AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CyanThirdMacAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CyanThirdMacAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CyanThirdMacApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B68300061D17FC6E00269AF7 /* Build configuration list for PBXNativeTarget "CyanThirdMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68300071D17FC6E00269AF7 /* Debug */,
+				B68300081D17FC6E00269AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68300091D17FC6E00269AF7 /* Build configuration list for PBXNativeTarget "CyanThirdMacAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B683000A1D17FC6E00269AF7 /* Debug */,
+				B683000B1D17FC6E00269AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B683000C1D17FC6E00269AF7 /* Build configuration list for PBXNativeTarget "CyanThirdMacAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B683000D1D17FC6E00269AF7 /* Debug */,
+				B683000E1D17FC6E00269AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B683FFDA1D17FC6E00269AF7 /* Build configuration list for PBXProject "CyanThirdMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68300041D17FC6E00269AF7 /* Debug */,
+				B68300051D17FC6E00269AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B683FFD71D17FC6E00269AF7 /* Project object */;
+}
